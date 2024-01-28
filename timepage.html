@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>biking is the perfect technology</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <script src="timescript.js"></script>
+    <script src="openweather.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .border-image {
+            width: 150px;
+            height: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: block;
+        }
+        .text-margins {
+            margin-left: 150px; /* Adjust as needed if the #side-column width is changed */
+        }
+        #side-column {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 150px;
+            overflow-y: auto;
+        }
+        #side-column ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .current-time, #now {
+    display: inline;
+}
+    </style>
+    
+    <script src="script/script.js"></script>
+</head>
+    <body>
+
+        <div id="side-column">
+            <ul></ul>
+          </div>
+
+        <div class="text-margins">
+
+        <h1>biking is the perfect technology</h1>
+
+        It’s 
+	<div id="now"></div> right now.
+
+    <div class="weather-info">
+        <p>It's currently <span id="weather"></span>degrees Fahrenheit.</p>
+
+    </div>
+	
+
+        <ul>
+            
+        </ul>
+        </div>
+
+        <script src="timescript.js"></script>
+    </body>
+</html>
